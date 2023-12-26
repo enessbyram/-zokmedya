@@ -45,7 +45,6 @@ main {
     justify-content: center;
     margin: 20px 0 0 0;
     gap: 10px;
-    color: #666;
 }
 
 .row {
@@ -64,12 +63,10 @@ button {
     outline: none;
     font-size: 16px;
     font-weight: bold;
-    color: #666;
 }
 
 a {
     width: 100%;
-    color: #666;
 }
 
 button:hover {
