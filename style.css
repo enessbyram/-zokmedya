@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #ccc;
+    background-image: url(https://i.hizliresim.com/ghsp754.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    vertical-align: center;
+    outline: none;
+    border: none;
+}
+
+.logo {
+    width: 100%;
+    height: 280px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    gap: 10px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    width: 100%;
+}
+
+button:hover {
+    scale: 1.03;
+    box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.2);
+}
+
+#info {
+    display: flex;
+    margin-top: 20px;
+}
+
+svg {
+    vertical-align: center;
+    align-items: center;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#dizaynea {
+    padding: 5px 0 10px 0;
+}
+
+#dizaynea a{
+    color: #666;
+    text-decoration: none;
+}
+
+#dizaynea a:hover{
+    color: #ccc;
+}
+
+.row2 {
+    width: 100%;
+}
